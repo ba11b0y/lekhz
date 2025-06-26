@@ -3,7 +3,9 @@
 lekhz is a simple, minimalistic, and fast personal website template for Zola.
 Ported from the Hugo theme [lekh](https://github.com/ba11b0y/lekh)
 
-<img width="1470" alt="lekhz-dark" src="https://github.com/user-attachments/assets/811bcf6b-c29f-4977-b791-3ceb32b8f68e" />
+<img width="1461" alt="lekhz-dark" src="https://github.com/user-attachments/assets/c4ce7b2b-e55b-4bd9-bb58-c3bb6480700c" />
+
+
 
 ## Contents
 
@@ -43,3 +45,12 @@ lekhz_profiles = [
     { name = "Goodreads", url = "https://www.goodreads.com/user/show/91520565-rahul-tiwari"}
 ]
 ```
+
+## Some more screenshots
+
+<img width="1464" alt="light-lekhz" src="https://github.com/user-attachments/assets/0f7cf16c-e49a-46f8-a5f2-0068498ad135" />
+
+<img width="1461" alt="lekhz-posts" src="https://github.com/user-attachments/assets/688bdfa9-dfdb-4ee6-8b94-1e60e5f93261" />
+
+
+
