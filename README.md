@@ -51,6 +51,12 @@ and then enable it in your `config.toml`:
 theme = "lekhz"
 ```
 
+To start with, copy the contents of the `content` folder to your new site.
+
+```bash
+cp -r themes/lekhz/content/* content/
+```
+
 ## Customization options
 
 Add the following to your `config.toml` file in the `[extra]` section:
