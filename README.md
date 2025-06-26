@@ -38,6 +38,7 @@ git submodule add https://github.com/ba11b0y/lekhz.git themes/lekhz
 ehco
 ```
 **OR**
+
 Clone the theme
 
 ```bash
