@@ -22,12 +22,31 @@ Ported from the Hugo theme [lekh](https://github.com/ba11b0y/lekh)
 * GoatCounter counts(analytics). Know more about GoatCounter [here](https://goatcounter.com)
 
 ## Installation
-First download this theme to your `themes` directory:
+
+Create a new Zola site if you haven't already.
+
+```bash
+zola init my-site
+cd my-site
+git init
+```
+
+Adding the theme as a submodule and enabling it:
+
+```bash
+git submodule add https://github.com/ba11b0y/lekhz.git themes/lekhz
+ehco
+```
+
+OR
+
+Cloning the theme
 
 ```bash
 cd themes
 git clone https://github.com/ba11b0y/lekhz.git
 ```
+
 and then enable it in your `config.toml`:
 
 ```toml
