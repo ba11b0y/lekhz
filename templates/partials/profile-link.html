@@ -1,0 +1,6 @@
+{% if profile.url and profile.url != "" %}
+<tr>
+    <td><i class="fab fa-{{ profile.name | lower }}" aria-hidden="true"></i></td>
+    <td>&nbsp;<a href="{{ profile.url }}" target="_blank">{{ profile.name }}</a></td>
+</tr>
+{% endif %}

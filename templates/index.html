@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+{% include "partials/head.html" %}
+
+<body>
+
+	<h1>{{ config.extra.lekhz_name | default(value="My Site") }}</h1>
+	<h4>{{ config.extra.lekhz_about | default(value="") | markdown | safe }}</h4>
+
+	<div>{{ section.content | default(value="") | safe }}</div>
+
+	<table>
+		{% if config.extra.lekhz_profiles %}
+		{% for profile in config.extra.lekhz_profiles %}
+		{% include "partials/profile-link.html" %}
+		{% endfor %}
+		{% endif %}
+		<tr>
+			{% if config.extra.lekhz_resume and config.extra.lekhz_resume != "" %}
+			<td><i class="fas fa-file-alt" aria-hidden="true"></i></td>
+			<td>&nbsp;<a href="/{{ config.extra.lekhz_resume }}" target="_blank">Resume</a></td>
+			{% endif %}
+		</tr>
+		<tr>
+			{% if config.extra.lekhz_email and config.extra.lekhz_email != "" %}
+			<td><i class="fas fa-envelope" aria-hidden="true"></i></td>
+			<td>&nbsp;<code>{{ config.extra.lekhz_email }}</code></td>
+			{% endif %}
+		</tr>
+	</table>
+
+	<h3>Posts</h3>
+
+	<div>
+
+		<!-- orders content according to the "date" field in front matter -->
+		{% set post_limit = config.extra.lekhz_post_limit | default(value=4) %}
+		{% set blog_section = get_section(path="blog/_index.md") %}
+		{% for page in blog_section.pages | slice(end=post_limit) %}
+		<div>
+			<a href="{{ page.permalink }}">{{ page.title }}</a><br />
+			<time>{{ page.date | date(format="%B %d, %Y") }}</time>
+		</div>
+		<br />
+		{% endfor %}
+
+
+		<h3><a href="{{ get_url(path='blog') }}">View all posts</a></h3>
+	</div>
+	{% if config.extra.lekhz_goatcounter_code and config.extra.lekhz_goatcounter_code != "" %}
+	<script data-goatcounter="{{ config.extra.lekhz_goatcounter_code }}" async src="//gc.zgo.at/count.js"></script>
+	{% endif %}
+</body>
+
+</html>

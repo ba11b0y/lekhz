@@ -1,0 +1,16 @@
+name = "Lekh"
+license = "MIT"
+description = "A text focussed and minimal personal portfolio theme with dark mode."
+homepage = "https://github.com/ba11b0y/lekhz"
+tags = ["minimal", "clean", "blog", "responsive", "personal", "simple", "minimalist", "portfolio", "text-focussed", "dark", "dark-mode", "rss"]
+features = ["blog", "Clean and minimal", "Responsive", "Social media links", "Markdown", "Text focussed", "Dark mode", "RSS feeds"]
+min_version = "0.38"
+
+[author]
+  name = "Rahul Tiwari"
+  homepage = "https://ba11b0y.github.io/rahul/"
+
+[original]
+    author = "Rahul Tiwari"
+    homepage = "https://ba11b0y.github.io/rahul/"
+    repo = "https://github.com/ba11b0y/lekh"

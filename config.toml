@@ -1,0 +1,30 @@
+# The URL the site will be built for
+base_url = "http://127.0.0.1:1111/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+generate_feeds = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+lekhz_name = "Rahul Tiwari"
+lekhz_about = "About me description here"
+lekhz_email = "jprrahultiwari@gmail.com"
+lekhz_resume = "resume.pdf"
+lekhz_post_limit = 4
+lekhz_goatcounter_code = ""
+# Example profiles configuration
+lekhz_profiles = [
+    { name = "GitHub", url = "https://github.com/ba11b0y" },
+    { name = "Twitter", url = "https://x.com/ba11b0y" },
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/ba11b0y/" }
+]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% include "partials/head.html" %}
+
+<body>
+  {% include "partials/page-header.html" %}
+
+  <h1>{{ section.title }}</h1>
+  
+  {% if section.content %}
+  <div>{{ section.content | safe }}</div>
+  {% endif %}
+
+  <div>
+    <!-- orders content according to the "date" field in front matter -->
+    {% for page in section.pages %}
+    <div>
+      <a href="{{ page.permalink }}">{{ page.title }}</a><br />
+      <time>{{ page.date | date(format="%B %d, %Y") }}</time>
+    </div>
+    <br />
+    {% endfor %}
+  </div>
+  
+  {% include "partials/all-posts-footer.html" %}
+</body>
+
+</html>
