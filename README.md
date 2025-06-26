@@ -35,7 +35,6 @@ Add the theme as a submodule:
 
 ```bash
 git submodule add https://github.com/ba11b0y/lekhz.git themes/lekhz
-ehco
 ```
 **OR**
 
