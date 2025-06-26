@@ -48,7 +48,7 @@ lekhz_profiles = [
 
 ## Some more screenshots
 
-<img width="1464" alt="light-lekhz" src="https://github.com/user-attachments/assets/0f7cf16c-e49a-46f8-a5f2-0068498ad135" />
+<img width="1451" alt="light-lekhz" src="https://github.com/user-attachments/assets/d120cdd4-3aa2-4e2d-9889-83e97034d9ba" />
 
 <img width="1461" alt="lekhz-posts" src="https://github.com/user-attachments/assets/688bdfa9-dfdb-4ee6-8b94-1e60e5f93261" />
 
