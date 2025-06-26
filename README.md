@@ -3,9 +3,7 @@
 lekhz is a simple, minimalistic, and fast personal website template for Zola.
 Ported from the Hugo theme [lekh](https://github.com/ba11b0y/lekh)
 
-
-![lekh screenshot]()
-
+<img width="1470" alt="lekhz-dark" src="https://github.com/user-attachments/assets/811bcf6b-c29f-4977-b791-3ceb32b8f68e" />
 
 ## Contents
 
