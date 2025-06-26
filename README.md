@@ -9,8 +9,17 @@ Ported from the Hugo theme [lekh](https://github.com/ba11b0y/lekh)
 
 ## Contents
 
+- [Features](#features)
 - [Installation](#installation)
 - [Customization](#customization-options)
+
+## Features
+* Social media links
+* Markdown supported
+* Easy to personalize
+* RSS feed
+* Dark mode (taken from https://www.gwern.net/ as it is.)
+* GoatCounter counts(analytics). Know more about GoatCounter [here](https://goatcounter.com)
 
 ## Installation
 First download this theme to your `themes` directory:

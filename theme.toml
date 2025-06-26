@@ -1,4 +1,4 @@
-name = "Lekh"
+name = "Lekhz"
 license = "MIT"
 description = "A text focussed and minimal personal portfolio theme with dark mode."
 homepage = "https://github.com/ba11b0y/lekhz"
@@ -13,4 +13,4 @@ min_version = "0.38"
 [original]
     author = "Rahul Tiwari"
     homepage = "https://ba11b0y.github.io/rahul/"
-    repo = "https://github.com/ba11b0y/lekh"
+    repo = "https://github.com/ba11b0y/lekhz"
